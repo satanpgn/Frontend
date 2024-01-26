@@ -12,18 +12,24 @@ import Navbar from './components/Navbar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Login from './pages/Login';
+// import Register from './pages/Register';
+
 import AdminDashboard from './pages/admin/AdminDashboard';
 import AdminEditProduct from './pages/admin/AdminEditProduct';
 
 function App() {
   return (
+    
     <Router>
       <Navbar/>
       <ToastContainer/>
       <Routes>
-       <Route path='/home' element={<Homepage/>}/> 
+       {/* <Route path='/homepage' element={<Homepage/>}/>  */}
+       
        <Route path='/register' element={<Register/>}/>
        <Route path='/login' element={<Login/>}/> 
+       <Route path='/homepage' element={<Homepage/>}/> 
+
 
        {/* Admin routes */}
        <Route path='/admin/dashboard' element={<AdminDashboard/>}/>
@@ -35,6 +41,7 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
 

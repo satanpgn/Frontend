@@ -104,9 +104,9 @@ const AdminDashboard = () => {
 
                                         <label>Product Category</label>
                                         <select onChange={(e) => setProductCategory(e.target.value)} className='form-control mb-2'>
-                                            <option value="Flower">Flower</option>
-                                            <option value="Cake">Cake</option>
-                                            <option value="Gift">Gift</option>
+                                            <option value="Jeans">Jeans</option>
+                                            <option value="Watch">Watch</option>
+                                            <option value="Shoes">Shoes</option>
                                         </select>
 
                                         <label>Product Description</label>

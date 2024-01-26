@@ -70,13 +70,13 @@ const AdminEditProduct = () => {
       toast.error("Server Error")
     })
 
-
-    
   }
 
   return (
     <>
+    
       <h2 className='m-4'>Updating product for <span className='text-danger'>'{productName}'</span></h2>
+      
       <div className='d-flex m-4 gap-4'>
         <div className=''>
           <form>
@@ -88,9 +88,9 @@ const AdminEditProduct = () => {
 
             <label>Product Category</label>
             <select value={productCategory} onChange={(e) => setProductCategory(e.target.value)} className='form-control mb-2'>
-              <option value="Flower">Flower</option>
-              <option value="Cake">Cake</option>
-              <option value="Gift">Gift</option>
+              <option value="Jeans">Jeans</option>
+              <option value="Watch">Watch</option>
+              <option value="Shoes">Shoes</option>
             </select>
 
             <label>Product Description</label>
