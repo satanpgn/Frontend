@@ -131,6 +131,7 @@ const Navbar = () => {
                 </ul>
               </li>
             </ul>
+            <i class="fa fa-shopping-cart w3-margin-right larger-cart-icon"></i>
             <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               {
