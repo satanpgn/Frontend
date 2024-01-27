@@ -126,7 +126,13 @@ const Navbar = () => {
                   <li><a className="dropdown-item" href="#">Gadgets</a></li>
                   <li><hr className="dropdown-divider" /></li>
                   <li><a className="dropdown-item" href="#">Explore others</a></li>
-                  <li><a className="dropdown-item" href="#">Accessories</a></li>
+                  <li><a className="dropdown-item" href="#">Mens's Fashion</a></li>
+                  <li><a className="dropdown-item" href="#">Women's Fashion</a></li>
+                  <li><a className="dropdown-item" href="#">Baby Products</a></li>
+                  <li><a className="dropdown-item" href="#">Home Appliances</a></li>
+                  <li><a className="dropdown-item" href="#">Winter</a></li>
+                  <li><a className="dropdown-item" href="#">Gits and Decoration</a></li>
+
 
                 </ul>
               </li>

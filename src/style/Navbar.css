@@ -1,0 +1,86 @@
+/* Add this CSS to your stylesheet or within a style tag in your HTML file */
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa; /* Set your desired background color */
+  }
+  
+  .navbar-brand {
+    color: #dc3545; /* Set your desired text color */
+  }
+  
+  .navbar-toggler-icon {
+    border-color: #dc3545; /* Set your desired color for the toggler icon */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #343a40; /* Set your desired text color for navigation links */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #dc3545; /* Set your desired text color for the active link */
+  }
+  
+  /* Dropdown styles */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Set your desired background color for the dropdown menu */
+  }
+  
+  .dropdown-item {
+    color: #343a40; /* Set your desired text color for dropdown items */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e9ecef; /* Set your desired background color on hover */
+  }
+  
+  /* Shopping cart icon */
+  .fa-shopping-cart {
+    color: #007bff; /* Set your desired color for the shopping cart icon */
+  }
+  
+  /* Form input style */
+  .form-control {
+    border-color: #007bff; /* Set your desired border color for the form input */
+  }
+  
+  /* Welcome dropdown styles */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Set your desired background color for the dropdown menu */
+  }
+  
+  .dropdown-item {
+    color: #343a40; /* Set your desired text color for dropdown items */
+  }
+  
+  /* Buttons styles */
+  .btn-outline-dark {
+    border-color: #343a40; /* Set your desired border color for dark outline button */
+    color: #343a40; /* Set your desired text color for dark outline button */
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #343a40; /* Set your desired background color on hover */
+    color: #ffffff; /* Set your desired text color on hover */
+  }
+  
+  .btn-outline-primary {
+    border-color: #007bff; /* Set your desired border color for primary outline button */
+    color: #007bff; /* Set your desired text color for primary outline button */
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff; /* Set your desired background color on hover */
+    color: #ffffff; /* Set your desired text color on hover */
+  }
+  
+  .btn-outline-success {
+    border-color: #28a745; /* Set your desired border color for success outline button */
+    color: #28a745; /* Set your desired text color for success outline button */
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745; /* Set your desired background color on hover */
+    color: #ffffff; /* Set your desired text color on hover */
+  }
+  

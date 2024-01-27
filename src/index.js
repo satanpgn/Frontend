@@ -5,7 +5,7 @@ import App from './App';
 
 
 // If Homepage.jsx is inside a 'pages' directory
-// import Homepage from './pages/Homepage';
+import Homepage from './pages/Homepage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

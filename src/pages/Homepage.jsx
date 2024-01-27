@@ -609,7 +609,6 @@ const Homepage = () => {
       <h1 style={{ color: '#00ff00' }}>New Trends</h1>
     </div>
     
-  );
         <h1>Welcome to Latest Trends</h1>
         <div className="product-details-section">
   <div className="container">
@@ -755,6 +754,7 @@ const Homepage = () => {
   </ul>
 </div>
 </div>
+
 
 {/* Payment Methods section */}
 <div className="payment-methods-section">
